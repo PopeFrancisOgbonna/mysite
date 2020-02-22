@@ -1,0 +1,34 @@
+body{
+    font-family:'Noto Serif', serifArial, Helvetica, sans-serif;
+}
+.company{
+    color: blue;
+}
+section{
+    max-height: fit-content;
+    background: #E9ECEF;
+    padding-bottom: 4px;
+    margin-bottom: 1.8em;
+}
+h5{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.cards{
+    padding: 0.5em;
+   border: none;
+    margin-bottom: 6px;
+    text-align: center;
+}
+.cards .c-img{
+    max-width: 200px;
+    margin: auto;
+}
+.c-text{
+    margin:5px;
+}
+.bg-foot{
+    background-color: rgba(8, 122, 245, 0.13);
+    padding:0.6em;
+    overflow: auto;
+}

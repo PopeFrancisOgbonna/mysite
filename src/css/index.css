@@ -1,0 +1,69 @@
+body{
+    font-family:'Noto Serif', serifArial, Helvetica, sans-serif;
+}
+.first{
+    background-color: rgb(235, 232, 232);
+    margin: auto;
+}
+.first h1{
+    font-weight: bold ;
+    color: rgb(4, 174, 241);
+}
+.first-img{
+    margin: 0.6em;
+}
+.section-header{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.brand{
+    widows: 100px;
+    height: 100px;
+}
+.brand-t,h3{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.wrap{
+    margin:5px  0px 5px 0px ;
+    background-color: #0949f844;
+    padding: 0.5em;
+}
+.wrap-item{
+    margin:3px;
+    padding: 5px;
+}
+.team{
+  
+    padding: 0.3em 0.3em 1em 0.3em;
+}
+.q-note{
+    background:whitesmoke;
+    width: fit-content;
+    padding: 0.5em;
+    margin: auto;
+}
+.hire,.news,.bg-foot{
+    background-color: #DEE4EB;
+}
+.hire .container{
+    background:#E06A52;
+    color: white;
+    width: fit-content;
+    margin:auto;
+    padding: 0.4em;
+    border-radius: 6px;
+}
+.sign-up{
+    background:#DEE4EB;
+    border: 3px solid whitesmoke;
+    padding: 0.5em;
+}
+.hire{
+    padding-top: 1em;
+}
+.bg-foot{
+    background-color: rgba(8, 122, 245, 0.13);
+    padding:0.6em;
+    overflow: auto;
+}

@@ -1,0 +1,37 @@
+body{
+    font-family:'Noto Serif', serifArial, Helvetica, sans-serif;
+}
+.main{
+   margin-top: 0px;
+    background-image: url(/src/images/bd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1em;
+}
+h3{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(230, 117, 117);
+}
+section{
+    background-color:rgba(222, 228, 235, 0.404);
+width: 65%;
+margin-left:auto;
+margin-right: auto;
+margin-top: 5px;
+border-radius: 5px;
+color: white;
+font-size: large;
+
+}
+.img{
+    margin-bottom: 10px;
+}
+section .container{
+    width: fit-content;
+}
+.bg-foot{
+    background-color: rgba(8, 122, 245, 0.13);
+    padding:1em;
+    overflow: auto;
+}
