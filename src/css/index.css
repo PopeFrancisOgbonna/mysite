@@ -66,4 +66,5 @@ body{
     background-color: rgba(8, 122, 245, 0.13);
     padding:0.6em;
     overflow: auto;
+    margin-bottom: 10px;
 }
