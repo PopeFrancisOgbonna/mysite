@@ -46,7 +46,7 @@ body{
 .hire,.news,.bg-foot{
     background-color: #DEE4EB;
 }
-.hire .container{
+.hire >.container{
     background:#E06A52;
     color: white;
     width: fit-content;
@@ -58,6 +58,11 @@ body{
     background:#DEE4EB;
     border: 3px solid whitesmoke;
     padding: 0.5em;
+    margin-top:8px;
+}
+.error{
+    font-size: 1em;
+    color:red;
 }
 .hire{
     padding-top: 1em;

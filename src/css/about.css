@@ -2,11 +2,11 @@ body{
     font-family:'Noto Serif', serifArial, Helvetica, sans-serif;
 }
 .main{
-   margin-top: 0px;
     background-image: url(/src/images/bd.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 1em;
+    position: sticky;
 }
 h3{
     font-weight: bold;
@@ -25,7 +25,8 @@ font-size: large;
 
 }
 .img{
-    margin-bottom: 10px;
+    border: 3px solid rgba(0, 0, 0, 0.931);
+    margin-top: 5px;
 }
 section .container{
     width: fit-content;
