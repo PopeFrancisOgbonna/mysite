@@ -54,6 +54,23 @@ body{
     padding: 0.4em;
     border-radius: 6px;
 }
+.hire{
+    padding-top: 1em;
+    margin-bottom: 10px;
+}
+#hire{
+    background:transparent;
+    border:2px solid #fff;
+}
+.modal h5{
+    font-weight: bold;
+}
+#hire-name{
+    margin-bottom: 5px;
+}
+#send-hire i{
+    padding-right: 5px;
+}
 .sign-up{
     background:#DEE4EB;
     border: 3px solid whitesmoke;
@@ -64,14 +81,7 @@ body{
     font-size: 1em;
     color:red;
 }
-.hire{
-    padding-top: 1em;
-    margin-bottom: 10px;
-}
-#hire{
-    background:transparent;
-    border:2px solid #fff;
-}
+
 .bg-foot{
     background-color: rgba(8, 122, 245, 0.13);
     padding:0.6em;

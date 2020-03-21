@@ -4,17 +4,25 @@ const mail=document.querySelector('#mail');
 const term=document.querySelector('#input-term');
 const signUp=document.querySelector('#sign-up');
 const error=document.querySelector('.error');
-const pattern=/\s+/;
+const employ=document.querySelector('#send-hire');
+const employerName=document.querySelector('#hire-name');
+const employerEmail=document.querySelector('#hire-email');
+const message=document.querySelector('#hire-message');
+
+const pattern=/\S+/;
 const mailPattern=/\S+@\S+\.\S+/;
 
 signUp.addEventListener('click',(e)=>{
     e.preventDefault();
 
-    if(name.value.match(pattern)||mail.value.match(mailPattern)){
+    if(name.value.match(pattern)&& mail.value.match(mailPattern)){
         if(term.checked){
             error.innerHTML='';
             setTimeout(() => {
-                window.location.assign('/thankyou.html');//Navigates the window to thank you page 
+                window.location.assign('/thankyou.html');//Navigates the window to thank you page
+                name.value='';
+                mail.value='';
+                term.checked=false; 
             }, 2000);
     
         }else{
@@ -26,4 +34,18 @@ signUp.addEventListener('click',(e)=>{
         error.innerHTML='Wrong input format.';
     }
     
+})
+
+employ.addEventListener('click',(e)=>{
+    e.preventDefault();
+    //console.log(employerName.value);
+    if(employerName.value!=''&& message.value!='' && employerEmail.value.match(mailPattern)){
+      //  $('.modal').close();
+        employerEmail.value='';
+        employerName.value='';
+        message.value='';
+        
+    }else{
+        alert('Please fill all fields please.');
+    }
 })
