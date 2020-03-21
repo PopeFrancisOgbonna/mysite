@@ -38,16 +38,16 @@ body{
     padding: 0.3em 0.3em 1em 0.3em;
 }
 .q-note{
-    background:whitesmoke;
+    
     width: fit-content;
     padding: 0.5em;
     margin: auto;
 }
-.hire,.news,.bg-foot{
+.news,.bg-foot{
     background-color: #DEE4EB;
 }
 .hire >.container{
-    background:#E06A52;
+    background:rgb(250, 175, 132);
     color: white;
     width: fit-content;
     margin:auto;
@@ -66,6 +66,11 @@ body{
 }
 .hire{
     padding-top: 1em;
+    margin-bottom: 10px;
+}
+#hire{
+    background:transparent;
+    border:2px solid #fff;
 }
 .bg-foot{
     background-color: rgba(8, 122, 245, 0.13);
