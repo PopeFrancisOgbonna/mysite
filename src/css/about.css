@@ -2,7 +2,7 @@ body{
     font-family:'Noto Serif', serifArial, Helvetica, sans-serif;
 }
 .main{
-    background-image: url(src/images/bd.jpg);
+    background-image: url('/src/images/bd.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 1em;
